@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #eee;
+}
+.wrapper {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.header {
+    padding: 3rem 0;
+    background: teal;
+}
+.header img {
+    max-width: 200px;
+}
+.info {
+    padding: 2rem 0;
+    background: #dadada;
+    border-bottom: 1px solid teal;
+}
+.info-content {
+    text-align: center;
+}
+.info-content h3 {
+    font-size: 3.5rem;
+}
+.info-content p {
+    font-size: 2rem;
+}
+
+.contact-top {
+    text-align: right;
+}
+.contact-top .button {
+    font-size: 1.6rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    padding: 0 2rem;
+    background-color: #fff;
+    border-color: transparent;
+    color: teal;
+}
+.contact-top .button:hover {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.bio {
+    padding: 2rem;
+}
+
+.bio .container {
+    padding: 3rem 0;
+    font-size: 2rem;
+}
+
+.bio img {
+    width: 100%;
+    display: block;
+}
+
+@media (min-width: 40.0rem) {
+    .header img {
+        max-width: 400px;
+    }
+}
