@@ -131,10 +131,6 @@
     gtag('config', 'G-976C1HJRK1');
   </script>
   <script type="text/javascript">
-    document
-      .querySelector("form")
-      .addEventListener("submit", handleSubmit);
-
     const handleSubmit = (e) => {
       e.preventDefault();
       let myForm = document.getElementById("contact-form");
@@ -152,6 +148,9 @@
         })
         .catch((error) => alert(error));
     };
+    document
+      .querySelector("form")
+      .addEventListener("submit", handleSubmit);
   </script>
 </body>
 
