@@ -78,6 +78,10 @@ body {
 #form-success {
     display: none;
 }
+footer {
+    text-align: center;
+    padding: 1rem;
+}
 
 @media (min-width: 40.0rem) {
     .header .logo {
