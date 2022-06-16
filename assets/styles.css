@@ -78,6 +78,11 @@ body {
 #form-success {
     display: none;
 }
+
+.send-contact-button {
+    font-size: 2rem;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
