@@ -78,6 +78,9 @@ body {
 #form-success {
     display: none;
 }
+#f-field {
+    display: none;
+}
 
 .send-contact-button {
     font-size: 2rem;
